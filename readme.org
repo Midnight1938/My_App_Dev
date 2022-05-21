@@ -6,19 +6,38 @@ This is the personal dev environment for Flutter
 
 ** About [[https://flutter.dev/][Flutter]]
 Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.
+*** Setup
+#+BEGIN_SRC bash
+flutter config --enable-web
+sudo dnf install chromium -y
+export CHROME_EXECUTABLE=chromium-browser
+flutter doctor
+#+END_SRC
+
+*** Android studio
+This is required if you want to use the cmdline-tools and sdkmanager.
+1. Install through Official Site and extract the zip.
+2. Run the setup in =Android-studio/bin/studio.sh=
+3. It will auto install the ~sdkman~ but youll have to install the ~cmdline~ manually through the =More Actions > SDK Manager > SDK Tools= in the "Welcome to Android Studio" welcome screen
 
 ** About the [[https://code.visualstudio.com/docs/remote/create-dev-container][Dev Containers]]
 There are three ways to work with flutter with my Repo.
-Never forget that =Flutter Doctor= is your friend
+Never forget that =Flutter Doctor= is your friend.
 
 *** Native Installation
 Install the setup according to [[https://docs.flutter.dev/get-started/install/linux][flutter]].
+You NEED Android SDK from android studio
 **** The Boring Snap WAY
 #+BEGIN_SRC bash
 sudo snap install flutter --classic # Install with snap
 flutter sdk-path # Check install path
 #+END_SRC
 **** [[https://docs.flutter.dev/get-started/install/linux#install-flutter-manually][Manual way]]
+#+BEGIN_SRC bash
+git clone https://github.com/flutter/flutter.git
+
+export PATH="$PATH:`pwd`/flutter/bin"
+#+END_SRC
 
 *** devcontainer.json setup
 [[https:dev.to/matsp/develop-flutter-in-a-vs-code-devcontainer-350g][Setup according to Mats Pleiffer]]
@@ -31,6 +50,8 @@ flutter sdk-path # Check install path
 - Unzip the folder and move contents into the main folder (ie the AppDev)
 - Build with Open in Remote.
 It contains no support for Mobile dev as its just as efficient to work with the browser
+
+
 
 * Learning Resources
 There are some great resources for learning this language
