@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:first_app/views/home/home_view.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,6 +15,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
             primarySwatch: Colors.blue,
             textTheme: Theme.of(context).textTheme.apply(fontFamily: 'Mirava')),
-        home: HomeView());
+        home: const HomeView());
   }
 }

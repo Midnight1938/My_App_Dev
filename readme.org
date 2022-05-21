@@ -42,7 +42,7 @@ export PATH="$PATH:`pwd`/flutter/bin"
 *** devcontainer.json setup
 [[https:dev.to/matsp/develop-flutter-in-a-vs-code-devcontainer-350g][Setup according to Mats Pleiffer]]
 1. Reopen Current Directory in container to build
-2. Navigate to ==lib/main.dart== and press ~F5~ to open in browser
+2. Navigate to =lib/main.dart= and press ~F5~ to open in browser
 
 + [[file:Resources/Matsp.org][Link to extra docs for device support]]
 

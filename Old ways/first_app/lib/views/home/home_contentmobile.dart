@@ -10,7 +10,7 @@ class ContentMobileView extends StatelessWidget {
     return Column(
       mainAxisSize: MainAxisSize.max,
       mainAxisAlignment: MainAxisAlignment.center,
-      children: [
+      children: const [
         InfoMe(),
         SizedBox(height: 100),
         toApps(word: 'My Github'),
