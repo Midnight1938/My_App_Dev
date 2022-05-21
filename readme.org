@@ -1,0 +1,40 @@
+#+TITLE: Flutter App development
+#+AUTHOR: Skshm
+* About
+** About Repo
+This is the personal dev environment for Flutter
+
+** About [[https://flutter.dev/][Flutter]]
+Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.
+
+** About the [[https://code.visualstudio.com/docs/remote/create-dev-container][Dev Containers]]
+There are three ways to work with flutter with my Repo.
+Never forget that =Flutter Doctor= is your friend
+
+*** Native Installation
+Install the setup according to [[https://docs.flutter.dev/get-started/install/linux][flutter]].
+**** The Boring Snap WAY
+#+BEGIN_SRC bash
+sudo snap install flutter --classic # Install with snap
+flutter sdk-path # Check install path
+#+END_SRC
+**** [[https://docs.flutter.dev/get-started/install/linux#install-flutter-manually][Manual way]]
+
+*** devcontainer.json setup
+[[https:dev.to/matsp/develop-flutter-in-a-vs-code-devcontainer-350g][Setup according to Mats Pleiffer]]
+1. Reopen Current Directory in container to build
+2. Navigate to ==lib/main.dart== and press ~F5~ to open in browser
+
++ [[file:Resources/Matsp.org][Link to extra docs for device support]]
+
+*** Docker zip (UNSTABLE)
+- Unzip the folder and move contents into the main folder (ie the AppDev)
+- Build with Open in Remote.
+It contains no support for Mobile dev as its just as efficient to work with the browser
+
+* Learning Resources
+There are some great resources for learning this language
++ [[https://dart.dev/codelabs/dart-cheatsheet][DART CHEATSHEET]]
++ The [[https://flutterlearn.com/][Flutter Learn Site]] - Make new accounts as each is free for a week.
++ The [[https://events.flutter.dev/engage/learn/beginner][Official Site]] - Takes effort to wrap your head around
+  - [[https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/#0][First App]]
