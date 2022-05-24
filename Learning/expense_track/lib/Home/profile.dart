@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class History extends StatelessWidget {
-  const History({Key? key}) : super(key: key);
+class Profile extends StatelessWidget {
+  const Profile({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -9,9 +9,9 @@ class History extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: const [
-          Icon(Icons.work_history_rounded, size: 100.0),
+          Icon(Icons.person_add_alt_1_rounded, size: 100.0),
           Text(
-            'This is the History',
+            'This is the Profile',
             style: TextStyle(fontSize: 20),
           )
         ],

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Data extends StatelessWidget {
-  const Data({Key? key}) : super(key: key);
+class Transaction extends StatelessWidget {
+  const Transaction({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -9,9 +9,9 @@ class Data extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: const [
-          Icon(Icons.money_rounded, size: 100.0),
+          Icon(Icons.currency_exchange_rounded, size: 100.0),
           Text(
-            'This is the Data',
+            'This is the Transaction',
             style: TextStyle(fontSize: 20),
           )
         ],
