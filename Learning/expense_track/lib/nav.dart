@@ -16,10 +16,10 @@ class Nav extends StatefulWidget {
 class _NavState extends State<Nav> {
   int _selectedIndex = 0;
   final List<Widget> _widgetOptions = <Widget>[
-    const Home(),
-    const Balance(),
-    const Transaction(),
-    const Profile(),
+    const Home(), //? Main area
+    const Balance(), //? Allowance
+    const Transaction(), //? Money spent
+    const Profile(), //? Settings and export
   ];
 
   void _onItemTap(int index) {
