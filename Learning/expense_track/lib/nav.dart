@@ -17,8 +17,8 @@ class _NavState extends State<Nav> {
   int _selectedIndex = 0;
   final List<Widget> _widgetOptions = <Widget>[
     const Home(), //? Main area
-    const Balance(), //? Allowance
     const Transaction(), //? Money spent
+    const Balance(), //? Allowance
     const Profile(), //? Settings and export
   ];
 
@@ -41,8 +41,8 @@ class _NavState extends State<Nav> {
         animationDuration: const Duration(milliseconds: 300),
         items: const <Widget>[
           Icon(Icons.home, size: 40), //* Home
-          Icon(Icons.currency_rupee_rounded, size: 40), //* balance
           Icon(Icons.shopping_bag_rounded, size: 40), //* transaction
+          Icon(Icons.currency_rupee_rounded, size: 40), //* balance
           Icon(Icons.person_outline_rounded, size: 40), //* profile
         ],
         onTap: _onItemTap,

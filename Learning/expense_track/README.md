@@ -4,18 +4,56 @@ A clock scroller and pre built data style expense tracker.
 
 ## TODO
 
+### Bottom UI
+
 - [x] ~~Make A bottom nav bar~~
 - [x] ~~Look for UI Designs on Dribble~~
-- Create the Base UI
-  - [ ] Home
-  - [ ] Balance
-  - [ ] Transaction
-  - [ ] Profile
-- UI the pages
-  - [ ] UI the Home
-  - [ ] UI the Balance
-  - [ ] UI the Account
+
+### Create the Base UI
+
+#### Home
+
+- [x] ~~Add infinite scroll~~
+- [ ] Add neumorphic box for the counter
+  - [ ] Add neumorphic box for the adder
+- [ ] Add Submit button
+  - [ ] Add Spent Account picker
+- [ ] Add spent "area" picker somehow
+
+#### Balance
+
+- [ ] Add Cards View
+- [ ] Add Wallet access
+  - [ ] Add ability to access cards from bank or sms
+- [ ] Smooth UI
+
+#### Transaction
+
+- [ ] Add a graph view
+- [ ] List of places spent
+- [ ] Add neumorph Boxes
+
+#### Profile
+
+- [ ] Picture
+- [ ] Export to drive option
+- [ ] Dark n Light Mode
+- [ ] < Support the maker? >
+
+### UI the pages
+
+- [ ] UI the Home
+- [ ] UI the Trasact
+- [ ] UI the Balance
+- [ ] UI the Account
+
+### Most IMPT
+
+- [ ] Setup MySQL
 - [ ] Find way to save data, `users cloud?`
+
+### Finalization
+
 - [ ] Create A User page for settings
 - [ ] App Icon
 - [ ] Desktop App design
@@ -23,6 +61,12 @@ A clock scroller and pre built data style expense tracker.
 ## Tutorials Used
 
 - [Bottom Nav bar by Benjamin Carlson](https://youtu.be/WG4y47qGPX4)
+
+### Neumorphic Sources
+
+- [Style Finder](https://neumorphism.io)
+- [Button #1](https://youtu.be/A2Bbhr3DGd0)
+- [Button #2](https://youtu.be/eV1UNxgJvPI)
 
 ## About Packages
 
