@@ -14,7 +14,7 @@ export CHROME_EXECUTABLE=chromium-browser
 flutter doctor
 #+END_SRC
 
-*** Android studio
+*** Android studio :temporary:
 This is required if you want to use the cmdline-tools and sdkmanager.
 1. Install through Official Site and extract the zip.
 2. Run the setup in =Android-studio/bin/studio.sh=
